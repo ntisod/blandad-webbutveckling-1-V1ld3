@@ -1,12 +1,17 @@
 header{
-    background-color: aliceblue;
-}
-nav{
     background-color: lightskyblue;
 }
-main{
-    background-color: lightgray;
+body .form{
+    background-color: blueviolet;
 }
-footer{
-    background-color: lightsalmon;
+body {
+    
+    background-color:powderblue;
+  }
+
+ 
+
+
+ul{
+    background-color: white;
 }

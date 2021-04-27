@@ -1,0 +1,48 @@
+
+body {
+    background-image: url("nedladdning.jpg");
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size: cover;
+    image-resolution: 2000px;
+}
+  
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color:black;
+}
+li {
+    float: left;
+}
+li a {
+    display: box;
+    padding: 20px;
+    background-color: black;
+    color:rgb(113, 201, 255);
+    text-decoration: none;
+}
+
+li a:hover {
+background-color:grey; 
+color:darkblue;
+}
+
+.wrapper {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    
+    background-color: lightskyblue;
+}
+h1 {text-align: center;}
+ 
+main{
+    clear:both;
+}  
+footer{
+    padding: 10px;
+}        
+
