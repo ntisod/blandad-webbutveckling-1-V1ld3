@@ -1,0 +1,35 @@
+body {
+    background-image: url("nedladdning.jpg");
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size: cover;
+    image-resolution: 2000px;
+}
+
+@media screen and (max-width: 479px) 
+    {
+    body {
+        background-image: url("PRKimages.jpg");
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+        background-size: cover;
+        image-resolution: 2000px;
+         }
+    }
+
+
+
+
+
+
+div {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: grey;
+    }
+
+h1 {text-align: center;}
+
+
+
+
