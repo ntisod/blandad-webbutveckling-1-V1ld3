@@ -8,28 +8,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="recept.css">
 
-    <script>
-        function myFunction() {
-        var x = document.getElementById("ApaDiv");
-        if (x.style.display === "none") {
-        x.style.display = "block";
-        } else {
-        x.style.display = "none"; }
-        }
-        </script>
+        
 </head>
 <body>
         
         <button type="button" onclick="myFunction()">Meny</button>
-            <Div id="ApaDiv">
+            <div id="ApaDiv">
                 <ol>
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="om-mig.html">Om mig</a></li>
                     <li><a href="javascript-formulär.html">Formular</a></li>
                 </ol>
-            </Div>
+            </div>
     <div>
-     <h1>KLaddkaka
+     <h1>
+         KLaddkaka
      </h1>
         <ul>
             <li>6 portioner</li>
@@ -69,5 +62,15 @@
         </h3>
         </footer>
     </div>
+      <script>
+        function myFunction() {
+            var x = document.getElementById("ApaDiv");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none"; }
+        }
+        myFunction();
+      </script>
 </body>
 </html>
