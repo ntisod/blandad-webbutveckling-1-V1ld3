@@ -17,19 +17,88 @@ body {
          }
     }
 
-
-
-
-
+    /*avbrytning*/
 
 div {
-    border: 1px solid black;
+    border: 2px solid darkblue;
     margin: 15px;
-    background-color: grey;
+    background-color: rgb(82, 82, 82);
     }
+#ApaDiv{
+        margin: 0;
+        margin-right: 20px;
+        padding: 20px;
+        overflow: hidden;
+        background-color:black;
+        scroll-margin-top: 10px;
+        
+}
+      p a:hover{
+        background-color:grey; 
+        color:darkblue;   
+      }
+    p {
+        margin:20px;
+    }
+    
+      li a:hover {
+        background-color:grey; 
+        color:darkblue;
+        }
 
-h1 {text-align: center;}
+img {
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    margin:10px;
+    width:350px;
+    height:250px;
+}
+h1{
+    text-align:right;
+    margin:10px;
+    margin-right:450px;
+}
+ul {
+  float:right;
+  margin:20px;
+  margin-top: 40px;
+  margin-right: 450px;
+}
 
+li{
+    margin:10px;
+    
+}
+.apa{
+  background-color: grey;
+  color: darkblue;
+  border: 2px solid darkblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 20px;
+}
+footer {
+    margin: 30px;
+    
+}
+footer a{
+    color: darkblue;
+    text-decoration: none;
+    
+}
+footer a:hover {
+    text-decoration:underline;
+}
 
-
+button{
+    background-color: black;
+    color:darkblue;
+    padding: 20px;
+    border-color: darkblue;
+    float: left;
+    margin-left: 12px;
+    margin-top: 12px;
+    
+}
 
