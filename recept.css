@@ -34,6 +34,7 @@ ol li a {
 }
 
 #ApaDiv{
+    z-index: 1;
     position: fixed;
     top: 15px;
     left: 98.8px;
@@ -88,6 +89,7 @@ ol li a {
             /*Skulle vilja ha länkarna i form av knappar i en horizontel linje*/
 
         #ApaDiv{
+            z-index: 1;
             position: fixed;
             margin-right: 22.5px;
             padding:0px;
@@ -166,6 +168,7 @@ button:hover{
 }
 
 img:hover {
+    z-index: -1;
   transform: scaleX(-1);
   /*Bilden hamnar ovanför knappen när man vänt den*/
   /*Jag vill lära mig att bilder anpassar sig själva till hur mycket platts det finns och margin*/
