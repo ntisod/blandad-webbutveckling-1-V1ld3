@@ -114,4 +114,8 @@ button{
         top: 15px;
         left: 22.8px;
 }
+button:hover{
+    background-color:grey; 
+        color:darkblue;
+}
 
