@@ -5,6 +5,7 @@
     background-image: url('nedladdning.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 280px;
 }
 
 #ApaDiv{
@@ -23,6 +24,13 @@
     scroll-margin-top: 10px;
 }
 
+body{
+    background-image: url('Solar_Flare.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-orientation: 2000px;
+ }
+
 ol li a {
     display: box;
     padding: 20px;
@@ -31,6 +39,12 @@ ol li a {
     text-decoration: none;
 }
 
+img{
+    border:2px orange;
+    margin:0px;
+    width:350px;
+    height:250px;
+}
 
 
 
@@ -56,6 +70,14 @@ ol li a {
             background-color:black;
             scroll-margin-top: 10px;
             }
+            
+            body{
+                background-image: url('Solar_Flare.gif');
+                background-repeat: no-repeat;
+                background-size: cover;
+                image-orientation: 2000px;
+                rotate: 90deg;
+            }
 
             ol li a {
             
@@ -78,13 +100,6 @@ li a:hover{
     background-color: rgb(53, 49, 49);
 }
  
- body{
-    background-image: url('Solar_Flare.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    image-orientation: 2000px;
- }
-
  h1{
     color:darkorange;
     font-style: italic;
@@ -115,17 +130,6 @@ footer a:hover {
      margin:10px;
  }
 
- img{
-     border:2px orange;
-     margin:0px;
-     width:350px;
-     height:250px;
- }
-
-
-
-
-
     figure{
         float: right;
     }
@@ -154,3 +158,26 @@ button:hover{
     background-color:rgb(53, 49, 49);
     color:rgb(202, 54, 0);   
 }
+/*Under bild byte*/
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .container:hover .overlay {
+    width: 100%;
+    left: 0;
+    
+  }
+  /*Slut*/

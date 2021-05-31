@@ -150,7 +150,6 @@ footer a:hover {
 }
 
 button{
-    z-index: 1;
         display: box;
         padding: 20px;
         padding-bottom: 25.5px;
