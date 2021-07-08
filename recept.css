@@ -1,0 +1,174 @@
+body {
+    background-image: url("nedladdning.jpg");
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size: cover;
+    image-resolution: 2000px;
+}
+img {
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    margin:10px;
+    width:350px;
+    height:250px;
+}
+ul {
+    float:right;
+    margin:20px;
+    margin-top: 40px;
+    margin-right: 450px;
+  }
+
+  h1{
+    text-align:right;
+    margin:10px;
+    margin-right:450px;
+}
+
+ol li a {
+    display: box;
+    padding: 20px;
+    background-color: black;
+    color:rgb(113, 201, 255);
+    text-decoration: none;
+}
+
+#ApaDiv{
+    z-index: 1;
+    position: fixed;
+    top: 15px;
+    left: 98.8px;
+    margin: 0;
+    margin-right: 700px;
+    padding:7px;
+    padding-left: 0px;
+    padding-top: 0px;
+    overflow: hidden;
+    background-color:black;
+    scroll-margin-top: 10px;
+    }
+
+
+@media screen and (max-width: 479px) 
+    {
+    body {
+        background-image: url("PRKimages.jpg");
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+        background-size: cover;
+        image-resolution: 2000px;
+         }
+
+    img {
+            border: 2px solid darkblue;
+            border-radius: 5px;
+            margin:10px;
+            margin-left: 10px;
+            width:216px;
+            height:150px;
+        }
+
+        ul {
+            text-align: center;
+            margin:10px;
+          }
+          h1{
+            text-align:right;
+            margin:5px;
+            /*vill att den ska ha <li> när man kör på mobil*/
+        }
+    
+        ol li a {
+            
+            padding: 11.5px 11.5px 11.5px 11.5px;
+            background-color: black;
+            color:rgb(113, 201, 255);
+            text-decoration: none;
+        }
+
+            
+
+        #ApaDiv{
+            z-index: 1;
+            position: fixed;
+            margin-right: 22.5px;
+            padding:0px;
+            padding-left: 0px;
+            padding-top: 0px;
+            overflow: hidden;
+            background-color:black;
+            scroll-margin-top: 10px;
+            }
+    
+    }
+
+
+    /*avbrytning*/
+
+div {
+    border: 2px solid darkblue;
+    margin: 15px;
+    background-color: rgb(82, 82, 82);
+    }
+       
+        ol li{
+            float:left;
+        }
+    p {
+        margin:20px;
+    }
+    
+      li a:hover {
+        background-color:grey; 
+        color:darkblue;
+        }
+
+li{
+    margin:10px;
+    
+}
+.apa{
+  background-color: grey;
+  color: darkblue;
+  border: 2px solid darkblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 20px;
+}
+footer {
+    margin: 30px;
+    
+}
+footer a{
+    color: darkblue;
+    text-decoration: none;
+    
+}
+footer a:hover {
+    text-decoration:underline;
+}
+
+button{
+        display: box;
+        padding: 20px;
+        padding-bottom: 25.5px;
+        border-color:darkblue;
+        background-color: black;
+        color:rgb(113, 201, 255);
+        text-decoration: none;
+        float: left; 
+        position: fixed;
+        top: 15px;
+        left: 22.8px;
+}
+button:hover{
+    background-color:grey; 
+        color:darkblue;
+}
+
+img:hover {
+    z-index: -1;
+  transform: scaleX(-1);
+  /*Jag vill lära mig att bilder anpassar sig själva till hur mycket platts det finns och margin*/
+}

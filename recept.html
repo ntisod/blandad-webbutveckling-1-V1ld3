@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <link rel="stylesheet" href="recept.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recept.css">
+
+        
+</head>
+<body>
+        
+        <button type="button" onclick="myFunction()">Meny</button>
+            <div id="ApaDiv">
+                <ol>
+                    <li><a class="active" href="index.html">Hem</a></li>
+                    <li><a href="om-mig.html">Om mig</a></li>
+                    <li><a href="javascript-formulär.html">Formular</a></li>
+                </ol>
+            </div>
+    <div>
+     <h1>
+         Kladdkaka
+     </h1>
+     
+        <ul>
+            <li>6 portioner</li>
+            <li>inehåller gluten</li>
+            <li>Tid: 20 min</li>
+        </ul>
+            
+            <img src="chocolate-cake.jpg" alt="bild av en kladdkaka">
+            
+            
+
+            <div class="apa">
+                <li>Smör 100g</li>
+                <li>Strösocker 2  & 1/2dl</li>
+                <li>Ägg 2st</li>
+                <li>Vetemjöl 1dl</li>
+                <li>Kakao 3msk</li>
+                <li>Vaniljsocker 1tsk</li>
+            </div>
+
+            <p>
+                1. Sätt ugnen på 175°.<br>
+                <br>
+                2. Smält smöret i en kastrull. Lyft av kastrullen från plattan.<br>
+                <br>
+                3. Rör ner socker och ägg, blanda väl. Rör ner övriga ingredienser så att allt blir väl blandat.<br>
+                <br>
+                4. Häll smeten i en smord och bröad form med löstagbar kant, ca 24 cm i diameter.<br>
+                <br>
+                5. Grädda mitt i ugnen ca 15 min. Kakan blir låg med ganska hård yta och lite kladdig i mitten.<br>
+                <br>
+                6. Låt kakan kallna. Pudra över florsocker. Servera med grädde eller glass och frukt.<br>
+            </p>
+        <footer>
+        <h3>
+            Copyright &copy; 2020, Vilde slottensjö <a href="https://www.ntigymnasiet.se/sodertalje/"> NTI gymnasiet Södertälje</a>.
+        </h3>
+        </footer>
+    </div>
+      <script>
+        function myFunction() {
+            var x = document.getElementById("ApaDiv");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none"; }
+        }
+        myFunction();
+      </script>
+</body>
+</html>
